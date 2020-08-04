@@ -1,0 +1,6 @@
+1. 写一个lua文件，要求每次运行这个文件是能随机输出一个table，table的size为20，table里面的key和value都是随机的，value的值可以是number(-1000<n<1000)和string(长度6-10，英文字母大小写)
+
+2. 写一个lua文件，运行时能在当前目录下生成一个目录dir_test，并在dir_test下生成20个文件，每个文件的内容都是由（1）中table下的每一个item的key=value形式，
+   20个文件名的格式统一:playwhale-[随机数，长度5].txt
+
+3. 写一个lua文件，对dir_test目录下的所有包含playwhale的文件进行读取，并输出文件内容，然后再重命名，将playwhale统一替换成happyfish
